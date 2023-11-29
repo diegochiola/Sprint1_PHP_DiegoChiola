@@ -1,0 +1,22 @@
+
+Ejercicio 1 Diega Chiola
+
+a) Quina és la diferència entre una classe i un objecte?
+Las clases son los espacios que almacenaran tanto atributos como 
+funciones o metodos especificas de los objetos que se crearan a partir de ellas(incluyendo atributos, metodo constructor,
+metodos propios, metodos personalizados, getter y setters.).
+En cambio los objetos se pueden crear a partir de las distintas clases(ejemplo clase:Coche tendra objetos coche1, coche2 etc),
+pudiendo crearse en la clase main e instanciando los doistintos metodos que se le atribuyen por pertenecer a dicha clase.
+
+b) Què són els atributs d’una classe? I els mètodes?
+Los atributos de una clase son los que definen a un objeto; ejemplo en clase coche: color, motor, marca, modelo, ano, etc.
+En cuanto a los metodos vendrian a ser las funciones de esta clase, como puede ser arrancar, acelerar, parar. Y son metodos
+propios de la clase especifica.
+c) Quins modificadors d’accés podem posar als atributs/mètodes d’una classe? Podries explicarlos?
+Se pueden utilizar los getter(para llamar al dato) o los setter para establecer un nuevo dato, modificarlo, etc.
+Ejemplo el metodo constructor va a requerir el ingreso de los atributos de una clase.
+d) De quin tipus poden ser els atributs d’una classe?
+Los atributos de una clase suelen ser privados, y puede sen de distintos tipos: float, integer, string, double, etc.
+e) Perquè serveix l’herència de classes?
+La herencia de clases nos permite ahorrar lineas de codigo y algo no menor que es la herencia de atributos y metodos propios 
+de la clase padre. Ejemplo clase padre Aviones, y las clases heredadas Avioneta, Avion Comercial, JetPrivado.
