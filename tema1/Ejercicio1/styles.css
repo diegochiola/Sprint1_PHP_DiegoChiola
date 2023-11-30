@@ -77,8 +77,6 @@ body{
     display: grid;
     grid-template-rows: 35px;
     /*grid-template-rows: 30% 30% auto;*/
-    
-     
 }
 .elemento7{
     background-color: #fcec84 ;
