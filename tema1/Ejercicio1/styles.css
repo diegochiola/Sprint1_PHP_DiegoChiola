@@ -96,9 +96,21 @@ body{
     height: 25px;
     
 }
+
 @media (max-width: 1024px) {
   
     /* Colocar los atributos que cambian solamente de cada elemento*/
-    
+    /* Solo se modifica el contenedor 2*/
+    .contenedor2{
+        height: auto;
+        background:#f7e819  ;
+        padding: 20px;
+        margin: 20px;
+        display: grid;
+        grid-template-columns: auto;
+        gap:20px;
+     
+    }
   }
+
   
