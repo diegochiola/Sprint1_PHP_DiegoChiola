@@ -102,15 +102,134 @@ body{
     /* Colocar los atributos que cambian solamente de cada elemento*/
     /* Solo se modifica el contenedor 2*/
     .contenedor2{
-        height: auto;
+        background: #f7e819;
+        grid-template-columns: auto;
+        
+        /*height: auto;
         background:#f7e819  ;
         padding: 20px;
         margin: 20px;
         display: grid;
         grid-template-columns: auto;
-        gap:20px;
+        gap:20px;*/
+
      
     }
   }
+  @media (max-width: 480px) {
+    .contenedor1{ /*no se si debe cambiar algo*/
+        height: auto;
+        
+        /*background: black;
+        
+        padding: 20px;
+        margin: 20px;
+        display: grid;*/
+        
+       
+    }
+    .subcontenedor1{
+        height: auto;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(3, 1fr);
+        /*background-color: #2c445c;
+        display: grid;
+        margin: 10px;
+        margin-bottom: 15px;
+        grid-template-rows: repeat(3, 1fr);*/
+    }
+    
+    .elemento1{
+        background-color: #ec5454  ;
+        margin: 10px
+        /*
+        height: 25px;
+        margin: 20px */
+        
+    }
+    .elemento2{
+        background-color: #ec5454 ;
+        margin: 10px
+        /*height: 25px;
+        margin: 20px*/
+        
+        
+    }
+    
+    .subcontenedor2{
+        height: auto;
+        background-color:  #f1984b ;
+        /*display: grid;*/
+     
+    }
+    .elemento4{
+        background-color: #fcd464 ;
+        margin: 10px 
+        /*height: 25px;*/
+    }
+    .contenedor2{
+        height: auto;
+        background:#fbe32c ;
+        grid-template-columns: auto;
+        /*padding:20px;
+        margin:20px;
+        display: grid;
+        
+        gap:20px;*/
+     
+    }
+    .subcontenedor3{
+        height: auto;
+        background-color: #0c546d  ;
+        
+        /*display: grid;
+        padding: 20px;
+        grid-template-rows: 30% auto;*/
+        
+    }
+    .elemento5{
+        background-color: #64949c;
+        margin: 10px
+
+        /*height: 25px;
+        margin: 20px;*/
+    }
+    .elemento6{
+        grid-column: 1 /span 2;
+        background-color: #a1d2c1 ;
+        /*height: 25px;
+        margin: 0px 20px 20px 20px;*/
+      
+    }
+    .subcontenedor4{
+        height: auto;
+        background-color: #f87c4a  ;
+        display: grid;
+        grid-template-rows: 35px;
+        /*grid-template-rows: 30% 30% auto;*/
+    }
+    .elemento7{
+        background-color: #fcec84 ;
+        /*height: 25px;
+        margin: 20px*/
+    }
+    .contenedor3{
+        height: auto;
+        /*padding: 20px;
+        margin: 20px;
+        display: grid;
+        background: black;  */ 
+    } 
+    
+    .elemento8{
+        background-color: #fcd464 ;
+        margin: 10px;
+        /*height: 25px;*/
+        
+    }
+
+  }
+  
+  
 
   
