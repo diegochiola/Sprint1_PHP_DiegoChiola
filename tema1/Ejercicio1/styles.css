@@ -47,7 +47,7 @@ body{
  
 }
 .subcontenedor3{
-    height: auto;/*160px*/
+    height: auto;
     background-color: #4c4c6c;
     display: grid;
     grid-template-rows: 30% auto;
@@ -69,7 +69,7 @@ body{
     height: auto;
     background-color: #f43c54;
     display: grid;
-    grid-template-rows: auto; /*corroborar*/
+    grid-template-rows: auto; 
 }
 .elemento7{
     background-color: #fcec84;
@@ -145,11 +145,8 @@ body{
     }
     .subcontenedor4{
         height: auto;
-       
         background-color: #f87c4a;
-        /*display: grid;
-         width: auto;
-        grid-template-rows: auto;*/
+     
     }
     .elemento7{
         background-color: #fcec84;
